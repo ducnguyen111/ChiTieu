@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ChiTieuCaNhan/ChiTieuCaNhan/app/src/main/res/layout/activity_gioithieu.xml" value="0.16304347826086957" />
+        <entry key="..\:/ChiTieuCaNhan/ChiTieuCaNhan/app/src/main/res/layout/activity_maps.xml" value="0.1490036231884058" />
+        <entry key="..\:/ChiTieuCaNhan/ChiTieuCaNhan/app/src/main/res/layout/custom_tong.xml" value="0.16304347826086957" />
+        <entry key="..\:/ChiTieuCaNhan/app/src/main/res/layout/activity_ghi_chu.xml" value="0.12284701114488349" />
+        <entry key="..\:/ChiTieuCaNhan/app/src/main/res/layout/item_ghichu.xml" value="0.4" />
+        <entry key="..\:/du an 1/ChiTieuCaNhan/app/src/main/res/layout/activity_ghi_chu.xml" value="0.1947463768115942" />
+        <entry key="..\:/du an 1/ChiTieuCaNhan/app/src/main/res/layout/custom_row_view.xml" value="0.12284701114488349" />
+        <entry key="..\:/du an 1/ChiTieuCaNhan/app/src/main/res/layout/ghichu_dialong.xml" value="0.12284701114488349" />
+        <entry key="..\:/du an 1/ChiTieuCaNhan/app/src/main/res/layout/item_ghichu.xml" value="0.176" />
+        <entry key="..\:/du an 1/ChiTieuCaNhan/app/src/main/res/layout/main.xml" value="0.1947463768115942" />
+        <entry key="..\:/du an 1/ChiTieuCaNhan/app/src/main/res/layout/them_thanhcong.xml" value="0.12284701114488349" />
+        <entry key="..\:/du an 1/ChiTieuCaNhan/app/src/main/res/layout/xoa_custom.xml" value="0.1947463768115942" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

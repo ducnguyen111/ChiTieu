@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.GioithieuActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="406dp"
+        android:layout_height="242dp"
+        android:src="@drawable/loolo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="362dp"
+        android:layout_height="264dp"
+        android:text="Quản lý tài chính cá nhân luôn là một trong những vấn đề quan trọng mà bất cứ ai cũng cần biết để định hướng thật tốt cho tương lai mình. Thế nhưng, không phải ai cũng biết cách thiết lập những kế hoạch quản lý tài chính sao cho hợp lý. Bài viết sau đây sẽ chia sẻ đến bạn những điều cần biết về cách quản lý tài chính cá nhân."
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653" />
+
+    <LinearLayout
+        android:background="@drawable/backgroundbutton"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgmaps"
+                android:layout_width="72dp"
+                android:layout_height="60dp"
+                android:src="@drawable/map"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="602dp" />
+
+            <TextView
+                android:id="@+id/dc"
+                android:layout_width="309dp"
+                android:layout_height="73dp"
+                android:text="Tòa nhà FPT Polytechnic, Phố Trịnh Văn Bô, Xuân Phương, Nam Từ Liêm, Hà Nội, Vietnam"
+                android:textSize="20dp"
+                tools:layout_editor_absoluteX="86dp"
+                tools:layout_editor_absoluteY="589dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="416dp"
+        android:layout_height="59dp"
+        android:background="@drawable/backgroundbutton"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862">
+
+        <ImageView
+            android:id="@+id/callss"
+            android:layout_width="72dp"
+            android:layout_height="60dp"
+            android:src="@drawable/call"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="584dp" />
+
+        <TextView
+            android:id="@+id/call"
+            android:layout_width="309dp"
+            android:layout_height="73dp"
+            android:text="84981725836"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="579dp" />
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
